@@ -4,9 +4,9 @@ html{
 }
 /*------------------------------------body------------------------------------*/
 body{
-    width: 100%; max-width: 900px;
+    width: 95%;
     height: 100%;
-    margin: 10rem auto;
+    margin: 3rem auto;
     color: black;
     font-family: "helvetica";
     font-weight: bold;
@@ -62,23 +62,27 @@ li{
 /*------------------------------------반응형-------------------------------------*/
 @media screen and (max-width:756px) {
     html{
-        line-height: 3.5rem;
+        line-height: 3rem;
     }
     body{
         margin: 1rem auto;
         width: 90%;
     }
+    ul{
+        padding: 0;
+        margin: 1rem 0.2rem;
+    }
 
     .title{
         font-size: 2.2rem;
-        margin-bottom: 8rem;
+        margin-bottom: 6rem;
     }
     .description{
         font-size: 1.8rem;
         word-break: keep-all;
     }
     .description img{
-        width: 20rem;
+        width: 16rem;
     }
     .description h3{
         padding: 0.2rem 0.5rem;
@@ -90,7 +94,7 @@ li{
     }
     .description h4{
         margin: 7rem 0 3rem ;
-        padding-left: 0.5rem;
+        padding-left: 0.2rem;
     }
     .description .des_press{
         margin: 7rem 0 2rem ;
@@ -104,7 +108,7 @@ li{
         margin-bottom: 1.5rem;
     }
     .description p{
-        padding-left: 0.5rem;
+        padding-left: 0.2rem;
         margin: 0;
         display: inline;
     }
