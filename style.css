@@ -1,0 +1,80 @@
+html{
+    font-size: 10px;
+    line-height: 4rem;
+}
+/*------------------------------------body------------------------------------*/
+body{
+    width: 100%; max-width: 900px;
+    height: 100%;
+    margin: 10rem auto;
+    color: black;
+    font-family: "helvetica";
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: black;
+}a:hover{
+    text-decoration: none;
+    color: initial;
+    color: black;
+}a:visited{
+    text-decoration: none;
+    color: initial;
+    color: black;
+}
+
+ul{
+    padding: 0;
+    margin: 1rem 0.5rem;
+}
+li{
+    list-style: none;
+}
+
+/*------------------------------------style-------------------------------------*/
+.title{
+    font-size: 2.8rem;
+    margin-bottom: 10rem;
+}
+.description{
+    font-size: 2.4rem;
+}.description h3{
+    padding: 0.5rem;
+    display: inline-block;
+    background-color: black;
+    color: white;
+    font-size: 3.2rem;
+}.description h4{
+    margin: 10rem 0 4rem ;
+    padding-left: 0.5rem;
+}.description p{
+    padding-left: 0.5rem;
+}
+
+/*------------------------------------반응형-------------------------------------*/
+@media screen and (max-width:756px) {
+    body{
+        margin: 1rem auto;
+    }
+
+    .title{
+        font-size: 2.4rem;
+        margin-bottom: 10rem;
+    }
+    .description{
+        font-size: 2rem;
+        word-break: keep-all;
+    }.description h3{
+        padding: 0.5rem;
+        display: inline-block;
+        background-color: black;
+        color: white;
+        font-size: 2.8rem;
+    }.description h4{
+        margin: 10rem 0 4rem ;
+        padding-left: 0.5rem;
+    }.description p{
+        padding-left: 0.5rem;
+    }
+}
