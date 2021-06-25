@@ -36,19 +36,26 @@ li{
 .title{
     font-size: 2.8rem;
     margin-bottom: 10rem;
+    line-height: 3rem;
 }
 .description{
     font-size: 2.4rem;
-}.description h3{
+}
+.description img{
+    width: 22rem;
+}
+.description h3{
     padding: 0.5rem;
     display: inline-block;
     background-color: black;
     color: white;
     font-size: 3.2rem;
-}.description h4{
+}
+.description h4{
     margin: 10rem 0 4rem ;
     padding-left: 0.5rem;
-}.description p{
+}
+.description p{
     padding-left: 0.5rem;
 }
 
@@ -70,6 +77,9 @@ li{
         font-size: 1.8rem;
         word-break: keep-all;
     }
+    .description img{
+        width: 20rem;
+    }
     .description h3{
         padding: 0.2rem 0.5rem;
         display: inline-block;
@@ -83,7 +93,7 @@ li{
         padding-left: 0.5rem;
     }
     .description .des_li{
-        line-height: 2rem;
+        line-height: 1.5rem;
     }
     .description li{
         line-height: 2.5rem;
@@ -91,5 +101,7 @@ li{
     }
     .description p{
         padding-left: 0.5rem;
+        margin: 0;
+        display: inline;
     }
 }
